@@ -1,0 +1,167 @@
+body {
+    background-image: url(background.jpg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 340px;
+    height: 340px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292a2b;
+    font-family: "Bebas Neue", cursive;
+}
+
+.logo img {
+    width: 150px;
+    margin: 21px 0 40px 26px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 450px;
+    height: 660px;
+    background: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 60px 68px 40px 68px;
+}
+
+.tittle {
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 28px;
+}
+
+.container #email {
+    color: white;
+    border: 0;
+    background-color: #333333;
+    height: 50px;
+    font-size: 16px;
+    padding: 16px 20px 20px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.container #password {
+    border: 0;
+    background-color: #333333;
+    color: white;
+    height: 50px;
+    font-size: 16px;
+    padding: 16px 20px 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.container button {
+    border: 0;
+    background-color: #e50914;
+    color: white;
+    font-weight: 500;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.recuerdame {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.recuerdame p {
+    color: #b3b3b3;
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+.bottonbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.bottonbutton a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.other-login {
+    cursor: pointer;
+}
+
+.other-login div:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+.other-login div img {
+    width: 20px;
+    height: 20px;
+}
+
+.other-login div p {
+    color: #737373;
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.firsttime div:nth-child(1) {
+    display: flex;
+}
+
+.firsttime div p {
+    color: #737373;
+    margin-top: 16px;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.firsttime div a {
+    text-decoration: none;
+    color: white;
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.catpcha div p {
+    color: #737373;
+    margin-top: 16px;
+    font-size: 13px;
+    margin-right: 8px;
+}
+
+.catpcha div a {
+    margin-left: 4px;
+    text-decoration: none;
+    color: #0071eb;
+    margin-top: 16px;
+    font-size: 13px;
+}
