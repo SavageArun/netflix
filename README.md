@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-    <img src="netflix-logo-5.png" alt="Netflix Clone Logo" width="300">
+    <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="Netflix Clone Logo" width="300">
 </h1>
 
 <p align="center">
